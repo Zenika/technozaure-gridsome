@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:vue/essential",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["~", "./src"],
+          ["@", "./src"]
+        ],
+        "extensions": [".js", ".vue", ".json"]
+      }
+    }
+  }
+}
