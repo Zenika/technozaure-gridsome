@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="postcss">
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
@@ -42,6 +42,12 @@ body {
 }
 
 .content {
-  min-height: calc(100vh - theme('spacing.20'));
+  min-height: calc(100vh - theme('spacing.16'));
+}
+
+@screen lg {
+  .content {
+    min-height: calc(100vh - theme('spacing.20'));
+  }
 }
 </style>

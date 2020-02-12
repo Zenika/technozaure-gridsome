@@ -1,11 +1,11 @@
 <template>
   <Layout>
-    <div class="home flex flex-col md:flex-row h-full">
+    <div class="home flex flex-col lg:flex-row h-full">
       <div
-        class="flex md:w-2/3 h-full min-h-1/3 bg-cover bg-center home__photo"
+        class="flex lg:w-2/3 h-full min-h-1/3 bg-cover bg-center home__photo"
       ></div>
-      <div class="flex md:w-1/3 h-full bg-gray-800">
-        <article class="flex flex-col items-center justify-center px-12 py-12 ">
+      <div class="flex lg:w-1/3 h-full bg-gray-800">
+        <article class="flex flex-col items-center px-12 py-12 lg:py-20">
           <header class="mb-12 text-white text-center font-bold">
             <h1 class="text-2xl lg:text-4xl">
               {{ $page.allEvent.edges[0].node.name }}
@@ -21,7 +21,7 @@
               Voir le programme
             </a>
           </section>
-          <section class="">
+          <section class="flex flex-1 items-center justify-center">
             <p class="text-md lg:text-xl text-white">
               L’idée de la technozaure est de nous rassembler pendant une
               journée sur différents sujets: des présentations techniques, des
@@ -54,8 +54,20 @@ export default {
 }
 </script>
 
-<style>
+<style lang="postcss" scoped>
 .home__photo {
-  background-image: url('~@/assets/imgs/home.jpg');
+  background-image: url('~@/assets/imgs/home-md.jpg');
+}
+
+@screen md {
+  .home__photo {
+    background-image: url('~@/assets/imgs/home.jpg');
+  }
+}
+
+@screen lg {
+  .home__photo {
+    background-image: url('~@/assets/imgs/home.jpg');
+  }
 }
 </style>
