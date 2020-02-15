@@ -15,11 +15,13 @@
             </span>
           </header>
           <section class="mb-12 w-full">
-            <a
-              class="inline-block w-full rounded-md bg-white text-center text-gray-800 shadow-2xl text-md lg:text-2xl font-bold py-5 px-5"
+            <g-link
+              v-unfocus-when-click
+              class="inline-block w-full rounded-md bg-white text-center text-gray-800 hover:bg-gray-200 shadow-2xl focus:bg-gray-200 active:shadow-inner active:bg-gray-300 text-md lg:text-2xl font-bold py-5 px-5"
+              to="/planning"
             >
               Voir le programme
-            </a>
+            </g-link>
           </section>
           <section class="flex flex-1 items-center justify-center">
             <p class="text-md lg:text-xl text-white">
