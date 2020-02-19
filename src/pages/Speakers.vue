@@ -1,12 +1,14 @@
 <template>
   <Layout>
-    <ul>
-      <li v-for="speaker in speakers" :key="speaker.id">
-        <g-link class="nav__link" :to="speaker.path">{{
-          speaker.displayName
-        }}</g-link>
-      </li>
-    </ul>
+    <div class="speakers container">
+      <ul>
+        <li v-for="speaker in speakers" :key="speaker.id">
+          <g-link class="nav__link" :to="speaker.path">{{
+            speaker.displayName
+          }}</g-link>
+        </li>
+      </ul>
+    </div>
   </Layout>
 </template>
 
