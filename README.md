@@ -1,14 +1,19 @@
-# Default starter for Gridsome
+<h1 align="center">Welcome to technozaure-gridsome 👋</h1>
 
-This is the project you get when you run `gridsome create new-project`.
+> Technozaure static website generated with gridsome
 
-### 1. Install Gridsome CLI tool if you don't have
+## 🚀 Usage
 
-`npm install --global @gridsome/cli`
+run locally :
 
-### 2. Create a Gridsome project
+```
+CONFERENCE_HALL_API_KEY=YOUR_API_KEY
+CONFERENCE_HALL_EVENT_ID=YOUR_EVENT_ID npx gridsome develop
+```
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## VSCode plugin configuration recommended
+
+- [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+- [GraphQl for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
