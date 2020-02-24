@@ -7,11 +7,10 @@
 run locally :
 
 ```
-CONFERENCE_HALL_API_KEY=YOUR_API_KEY
-CONFERENCE_HALL_EVENT_ID=YOUR_EVENT_ID npx gridsome develop
+CONFERENCE_HALL_API_KEY=YOUR_API_KEY CONFERENCE_HALL_EVENT_ID=YOUR_EVENT_ID npx gridsome develop
 ```
 
-## VSCode plugin configuration recommended
+## ⚙️ VSCode plugin configuration recommended
 
 - [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
