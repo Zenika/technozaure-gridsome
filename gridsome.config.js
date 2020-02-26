@@ -12,7 +12,8 @@ module.exports = {
       options: {
         apiKey: process.env.CONFERENCE_HALL_API_KEY,
         eventId: process.env.CONFERENCE_HALL_EVENT_ID,
-        filterConfirmedTalks: true
+        filterConfirmedTalks: true,
+        convertAbstractsToHtml: true
       }
     },
     {

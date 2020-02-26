@@ -11,9 +11,6 @@
           <navbar-link class="flex-1" to="/">Home</navbar-link>
         </li>
         <li class="flex flex-1 text-center">
-          <navbar-link class="flex-1" to="/planning/">Planning</navbar-link>
-        </li>
-        <li class="flex flex-1 text-center">
           <navbar-link class="flex-1" to="/talks/">Talks</navbar-link>
         </li>
         <li class="flex flex-1 text-center">
