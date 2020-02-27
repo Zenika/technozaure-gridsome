@@ -2,6 +2,7 @@
   <Layout>
     <div class="talk container mx-auto p-4 lg:p-10">
       <header class="flex flex-col lg:flex-row items-center mb-4">
+        <span></span>
         <h1 class="text-3xl mb-4">
           {{ $page.talk.title }}
         </h1>

@@ -4334,8 +4334,10 @@ gridsome-plugin-tailwindcss@2.2.32:
     postcss-preset-env "^6.7.0"
     tailwindcss "^1.2.0-canary.5"
 
-"gridsome-source-conference-hall@file:../../gridsome-source-conference-hall":
-  version "0.0.3"
+gridsome-source-conference-hall@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/gridsome-source-conference-hall/-/gridsome-source-conference-hall-0.0.4.tgz#f4a20a819ef7e01be5f05f109165b613093482ff"
+  integrity sha512-1dV9cmJ1HXh9jX+czn4wYQsHrmUYW6rMvKUGoHb2Xr+Tn+FbBm4o4x7J3IVV/in1yZ382EugpaFTorT5zZ4AgQ==
   dependencies:
     axios "0.19.0"
     showdown "^1.9.1"

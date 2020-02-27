@@ -10,3 +10,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.markdown-body li {
+  list-style-type: disc;
+}
+</style>

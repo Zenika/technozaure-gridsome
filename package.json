@@ -21,6 +21,6 @@
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-vue": "6.1.2",
     "gridsome-plugin-tailwindcss": "2.2.32",
-    "gridsome-source-conference-hall": "/Users/tbetous/dev/projects/gridsome-source-conference-hall"
+    "gridsome-source-conference-hall": "0.0.4"
   }
 }
