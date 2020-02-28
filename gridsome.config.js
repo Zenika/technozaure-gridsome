@@ -29,7 +29,7 @@ module.exports = {
     }
   ],
   templates: {
-    Speaker: '/speaker/:id',
-    Talk: '/talk/:id'
+    Speaker: '/speaker/:displayName',
+    Talk: '/talk/:title'
   }
 }
