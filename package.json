@@ -8,6 +8,7 @@
     "lint": "eslint . --ext .js,.vue"
   },
   "dependencies": {
+    "github-markdown-css": "^4.0.0",
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
@@ -20,6 +21,6 @@
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-vue": "6.1.2",
     "gridsome-plugin-tailwindcss": "2.2.32",
-    "gridsome-source-conference-hall": "0.0.3"
+    "gridsome-source-conference-hall": "0.0.4"
   }
 }
