@@ -19,7 +19,9 @@ module.exports = {
     {
       use: 'gridsome-plugin-tailwindcss',
       options: {
-        purgeConfig: {},
+        purgeConfig: {
+          whitelist: ['hidden']
+        },
         presetEnvConfig: {},
         shouldPurge: true,
         shouldImport: true,

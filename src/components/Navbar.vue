@@ -21,8 +21,8 @@
         </button>
       </div>
       <nav
-        :class="{ hidden: !isNavbarOpen }"
-        class="bg-white text-gray-800 absolute top-0 inset-x-0 md:relative mt-16 md:mt-0 flex md:flex flex-col md:flex-row md:w-4/5 text-xl lg:text-3xl shadow-lg md:shadow-none border-t md:border-none md:h-full"
+        :class="{ flex: isNavbarOpen, hidden: !isNavbarOpen }"
+        class="bg-white text-gray-800 absolute top-0 inset-x-0 md:relative mt-16 md:mt-0 md:flex flex-col md:flex-row md:w-4/5 text-xl lg:text-3xl shadow-lg md:shadow-none border-t md:border-none md:h-full"
       >
         <li class="flex md:flex-1 text-center">
           <navbar-link class="flex-1" to="/">Home</navbar-link>
