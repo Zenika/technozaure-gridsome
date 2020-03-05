@@ -3,7 +3,7 @@
     <article class="talk-card flex flex-col h-full p-4">
       <header class="flex h-16 mb-4 items-center justify-center">
         <div class="flex flex-col items-center justify-center">
-          <g-image class="w- rounded-full" :src="speaker.photoURL" />
+          <g-image class="w-20 rounded-full" :src="speaker.photoURL" />
         </div>
       </header>
       <section class="px-4 overflow-hidden">
