@@ -17,7 +17,7 @@
           <section class="mb-12 w-full">
             <g-link
               v-unfocus-when-click
-              class="inline-block w-full rounded-md bg-white text-center text-gray-800 hover:bg-gray-200 shadow-2xl focus:bg-gray-200 active:shadow-inner active:bg-gray-300 text-md lg:text-2xl font-bold py-5 px-5"
+              class="inline-block w-full rounded-md bg-white text-center text-gray-800 hover:bg-gray-200 shadow-2xl focus:bg-gray-200 active:shadow-inner active:bg-gray-300 text-md lg:text-2xl font-bold py-5 px-5 select-none"
               to="/talks"
             >
               Voir le programme

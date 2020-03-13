@@ -1,7 +1,7 @@
 <template>
   <g-link
     v-unfocus-when-click
-    class="flex items-center justify-center hover:bg-gray-200 focus:bg-blue-200  active:shadow-inner active:bg-gray-300 no-underline outline-none md:border-b-4 md:border-transparent"
+    class="flex items-center justify-center hover:bg-gray-200 focus:bg-blue-200  active:shadow-inner active:bg-gray-300 no-underline outline-none py-4 md:py-0 md:border-b-4 md:border-transparent"
     :to="to"
     ><slot
   /></g-link>
