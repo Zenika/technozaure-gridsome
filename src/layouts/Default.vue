@@ -2,7 +2,7 @@
   <div class="layout">
     <navbar class="z-10" />
     <div class="content flex">
-      <div class="flex-1">
+      <div class="w-full flex-1">
         <slot />
       </div>
     </div>
