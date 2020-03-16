@@ -4,7 +4,7 @@
 
 ## 🚀 Usage
 
-run locally :
+Run locally :
 
 ```
 CONFERENCE_HALL_API_KEY=YOUR_API_KEY CONFERENCE_HALL_EVENT_ID=YOUR_EVENT_ID npx gridsome develop
