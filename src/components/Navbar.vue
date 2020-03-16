@@ -1,5 +1,7 @@
 <template>
-  <header class="navbar bg-white px-4 h-navbar-h-base lg:navbar-h-lg shadow-lg">
+  <header
+    class="navbar bg-white px-4 h-navbar-h-base lg:h-navbar-h-lg shadow-lg"
+  >
     <div class="container h-full mx-auto flex items-center">
       <div class="w-1/5 flex items-center">
         <g-link class="block" to="/"

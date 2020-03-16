@@ -42,12 +42,12 @@ body {
 }
 
 .content {
-  min-height: calc(100vh - theme('spacing.16'));
+  min-height: calc(100vh - theme('spacing.navbar-h-base'));
 }
 
 @screen lg {
   .content {
-    min-height: calc(100vh - theme('spacing.20'));
+    min-height: calc(100vh - theme('spacing.navbar-h-lg'));
   }
 }
 </style>
