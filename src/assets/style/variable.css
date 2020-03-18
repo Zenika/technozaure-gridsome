@@ -1,0 +1,4 @@
+:root {
+  --navbar-height-base: theme('spacing.16');
+  --navbar-height-lg: theme('spacing.20');
+}

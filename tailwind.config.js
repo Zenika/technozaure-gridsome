@@ -1,6 +1,12 @@
 module.exports = {
   important: true,
   theme: {
+    extend: {
+      spacing: {
+        'navbar-h-base': 'var(--navbar-height-base)',
+        'navbar-h-lg': 'var(--navbar-height-lg)'
+      }
+    },
     truncate: {
       lines: {
         2: '2'
