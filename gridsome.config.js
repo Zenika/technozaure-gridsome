@@ -4,6 +4,8 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const path = require('path')
+
 module.exports = {
   siteName: 'Gridsome',
   plugins: [
@@ -13,7 +15,10 @@ module.exports = {
         apiKey: process.env.CONFERENCE_HALL_API_KEY,
         eventId: process.env.CONFERENCE_HALL_EVENT_ID,
         filterConfirmedTalks: true,
-        convertAbstractsToHtml: true
+        convertAbstractsToHtml: true,
+        speakersPhotoPath: `${path.resolve(
+          __dirname
+        )}/src/assets/imgs/speakers/`
       }
     },
     {
